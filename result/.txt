@@ -1,0 +1,89 @@
+ファイルへの追記サンプル
+ファイルへの追記サンプル
+ファイルへの追記サンプル
+ファイルへの追記サンプル
+ファイルへの追記サンプル
+ファイルへの追記サンプル
+ファイルへの追記サンプル
+ファイルへの追記サンプル
+ファイルへの追記サンプル
+ファイルへの追記サンプル
+ファイルへの追記サンプル
+ファイルへの追記サンプル
+ファイルへの追記サンプル
+ファイルへの追記サンプル
+ファイルへの追記サンプル
+ファイルへの追記サンプル
+ファイルへの追記サンプル
+ファイルへの追記サンプル
+ファイルへの追記サンプル
+ファイルへの追記サンプル
+ファイルへの追記サンプル
+ファイルへの追記サンプル
+ファイルへの追記サンプル
+ファイルへの追記サンプル
+ファイルへの追記サンプル
+ファイルへの追記サンプル
+ファイルへの追記サンプル
+ファイルへの追記サンプル
+
+
+
+
+
+
+
+
+
+
+
+test
+ : 
+ : 
+ : 
+ : 
+ : 
+ : 
+ : 
+ : 
+door_knock_01 : a
+zipper_02 : a
+clinking_03 : a
+rain_01 : a
+motor_01 : a
+key_01 : a
+pot_01 : a
+toaster_01 : ss
+power_point_01 : ss
+putting_04 : s
+opening_08 : a
+drinking_01 : a
+opening_08 : a
+toaster_01 : a
+pulling_01 : dd
+cutter_01 : dd
+putting_12 : dd
+putting_06 : dd
+putting_20 : dd
+money_box_01 : dd
+scissors_04 : dd
+putting_05 : ff
+motor_01 : ss
+brushing_01 : ss
+clinking_02 : ss
+autoshaver_01 : ss
+autoshaver_01 : 
+clinking_02 : 
+ : 
+ : 
+ : 
+ : 
+ : 
+ : 
+ : 
+ : 
+ : 
+ : test
+scissors_01 : あ
+bell_02 : あ
+ : 

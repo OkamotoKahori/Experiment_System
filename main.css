@@ -1,0 +1,319 @@
+h1 {
+    color: #FF3399;
+    text-align: left;
+}
+h2 {
+    color: #0000CC;
+}
+.body {
+    font-family: Meiryo;
+    text-align: center;
+}
+.allSpace {
+    /*    border-style: dashed;
+    border-color: orange;
+    border-width: 5px;*/
+    
+    height: 600px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.header {
+    border-style: none none dashed none;
+    border-color: #005FFF;
+    border-width: 3px;
+}
+/*スペース*/
+
+.space {
+    margin-top: 100px;
+}
+/*説明文*/
+
+.inform {
+    border-style: solid;
+    border-color: #005FFF;
+    border-width: 1px;
+    overflow: scroll;
+    height: 400px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    text-align: left;
+    padding: 0px 20px;
+}
+/*同意確認ボタン*/
+
+#ok {
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border: #FF69A3 1px solid;
+    -moz-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2), 0 0 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2), 0 0 2px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2), 0 0 2px rgba(0, 0, 0, 0.3);
+    font-size: 1.4em;
+    font-weight: bold;
+    padding: 10px 30px;
+    /*margin-top: 30px;*/
+    
+    background-color: #FF69A3;
+    color: #fff;
+    border-style: none;
+}
+#ok:hover {
+    background-color: #FF97C2;
+    color: #fff;
+}
+/*手順説明*/
+
+.description {
+    border-style: solid;
+    border-color: #005FFF;
+    border-width: 1px;
+    height: auto;
+    width: 670px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    text-align: left;
+    padding: 10px;
+}
+.check1 {
+    float: left;
+    width: 390px;
+    height: 40%;
+    padding-top: 90px;
+    padding-bottom: 50px;
+    /*    border-style: dashed;
+    border-color: blue;
+    border-width: 1px;*/
+}
+.check2 {
+    float: left;
+    width: 390px;
+    height: 40%;
+    padding-top: 90px;
+    padding-bottom: 50px;
+    /*    border-style: dashed;
+    border-color: yellow;
+    border-width: 1px;*/
+}
+.check3 {
+    float: left;
+    width: 390px;
+    height: 40%;
+    padding-top: 90px;
+    padding-bottom: 50px;
+    /*   border-style: dashed;
+    border-color: red;
+    border-width: 1px;*/
+}
+/*環境チェック結果表示フォーム*/
+
+#conform {
+    margin-top: 40px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border: #a9a9a9 1px solid;
+    -moz-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2), 0 0 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2), 0 0 2px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2), 0 0 2px rgba(0, 0, 0, 0.3);
+    width: 200px;
+    height: 25px;
+    padding: 0 3px;
+}
+#conform:hover {
+    border: solid 1px #FF3399;
+}
+/*環境チェックボタン*/
+
+#check {
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border: #FF69A3 1px solid;
+    -moz-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2), 0 0 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2), 0 0 2px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2), 0 0 2px rgba(0, 0, 0, 0.3);
+    font-size: 1.4em;
+    font-weight: bold;
+    padding: 10px 30px;
+    /*margin-top: 30px;*/
+    
+    background-color: #FF69A3;
+    color: #fff;
+    border-style: none;
+}
+#check:hover {
+    background-color: #FF97C2;
+    color: #fff;
+}
+/*オノマトペ入力フォーム*/
+
+.onomatope {
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border: #a9a9a9 1px solid;
+    -moz-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2), 0 0 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2), 0 0 2px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2), 0 0 2px rgba(0, 0, 0, 0.3);
+    /*  width: 200px;
+    height: 25px;*/
+    
+    padding: 0 3px;
+}
+.onomatope:hover {
+    border: solid 1px #FF3399;
+}
+/*実験をはじめるボタン*/
+
+#start {
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border: #FF69A3 1px solid;
+    -moz-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2), 0 0 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2), 0 0 2px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2), 0 0 2px rgba(0, 0, 0, 0.3);
+    font-size: 1.4em;
+    font-weight: bold;
+    padding: 10px 30px;
+    margin-top: 30px;
+    background-color: #FF69A3;
+    color: #fff;
+    border-style: none;
+}
+#start:hover {
+    background-color: #FF97C2;
+    color: #fff;
+}
+/* main.jsの部分 */
+
+.main {
+    margin-top: 60px;
+}
+.num {
+    font-size: 15pt;
+    color: #FF3399;
+}
+/*次へボタン*/
+
+#next {
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border: #FF69A3 1px solid;
+    -moz-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2), 0 0 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2), 0 0 2px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2), 0 0 2px rgba(0, 0, 0, 0.3);
+    font-size: 1.4em;
+    font-weight: bold;
+    padding: 10px 30px;
+    margin-top: 30px;
+    /*margin-left: 60px;*/
+    
+    background-color: #FF69A3;
+    color: #fff;
+    border-style: none;
+}
+#next:hover {
+    background-color: #FF97C2;
+    color: #fff;
+}
+/*タブのCSS*/
+/** {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}*/
+
+.tabs {
+    width: 650px;
+    float: none;
+    list-style: none;
+    position: relative;
+    margin: 80px 0 0 10px;
+    text-align: left;
+}
+.tabs li {
+    float: left;
+    display: block;
+}
+.tabs input[type="radio"] {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+.tabs label {
+    display: block;
+    padding: 14px 21px;
+    border-radius: 2px 2px 0 0;
+    font-size: 16px;
+    font-weight: normal;
+    text-transform: uppercase;
+    background: #FFD5EC;
+    cursor: pointer;
+    position: relative;
+    top: 4px;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.tabs label:hover {
+    background-color: #FFABCE;
+}
+.tabs .tab-content {
+    z-index: 2;
+    display: none;
+    overflow: hidden;
+    width: 100%;
+    font-size: 17px;
+    line-height: 1.8em;
+    padding: 25px;
+    position: absolute;
+    top: 53px;
+    left: 0;
+    background: #FFABCE;
+}
+.tabs [id^="tab"]:checked + label {
+    top: 0;
+    padding-top: 17px;
+    background: #FFABCE;
+}
+.tabs [id^="tab"]:checked ~ [id^="tab-content"] {
+    display: block;
+}
+/*連絡先*/
+.address {
+    border-style: solid;
+    border-color: #005FFF;
+    border-width: 1px;
+    height: auto;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    text-align: left;
+    padding: 10px;
+}

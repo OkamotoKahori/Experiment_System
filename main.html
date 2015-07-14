@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset=utf-8>
+    <title>実験</title>
+    <!-- cssの読み込み -->
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <!-- jQueryのライブラリ -->
+    <script type="text/javascript" src="lib/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="lib/jquery.parse.min.js"></script>
+
+</head>
+
+<body>
+    <div class="body">
+        <div id="main" class="allSpace">
+            <div class="header">
+                <h1>■実験準備</h1>
+            </div>
+
+            <div class="check1">
+                <h2>1. イヤホンの準備</h2>
+                <p>イヤホンを装着してください</p>
+            </div>
+
+            <div class="check2">
+                <h2>2. 音量チェック</h2>
+                <p>音量を調節してください</p>
+                <p>再生ボタンを押すと音を再生します</p>
+                <!-- 音声ファイルの再生 -->
+                <audio controls>
+                    <source src="broadcast_stopping_01.wav" type="audio/wav">
+                </audio>
+            </div>
+
+            <div class="check3">
+                <h2>3. 準備完了</h2>
+                <p>準備が完了したら下のボタンを押してください</p>
+                <form>
+                    <input id="ID" type="hidden" name="ID" placeholder="半角数字">
+                    <input id="start" type="button" value="実験を始める">
+                </form>
+            </div>
+        </div>
+        <!-- 検索プログラムの読み込み -->
+        <script type="text/javascript" src="js/trial.js"></script>
+
+
+    </div>
+</body>
+
+
+</html>
